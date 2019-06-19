@@ -28,11 +28,11 @@ After cleaning the data, I did EDA on article meta data and link for notebook wi
     After getting the vecotrs from Doc2Vec I tried diffrent classification models like Logistic Regression and Random forest.
     The link of that jupyter notebook given below.
 
-[Doc2vec model](https://github.com/krutika731/Fake-news-prediction/blob/master/Doc2vec_model.ipynb)
+        [Doc2vec model](https://github.com/krutika731/Fake-news-prediction/blob/master/Doc2vec_model.ipynb)
 
 - With neural network:-
 
      I used Keras LSTM model to improve the accuracy in classification. I used Bidirectional LSTM with Conv1D layer to improve the 
      result.The link for this jupyter notebook is given below.
 
-[Deep learning model](https://github.com/krutika731/Fake-news-prediction/blob/master/with_LSTM.ipynb)
+        [Deep learning model](https://github.com/krutika731/Fake-news-prediction/blob/master/with_LSTM.ipynb)
