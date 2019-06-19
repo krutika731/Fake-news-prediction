@@ -10,7 +10,7 @@ The link of the notebook for scraping data is given below.
 
 [Notebook to scrape data](https://github.com/krutika731/Fake-news-prediction/blob/master/scraping_data_using_API.ipynb)
 
-EDA:-
+### EDA:-
 After scraping I did some data cleaning and EDA for the articles meta data information.
 I removed all the duplicate articles scraped from different website. And also removed all non-English articles from my dataset.
 
@@ -18,9 +18,9 @@ After cleaning the data, I did EDA on article meta data and link for notebook wi
 
 [EDA notebook](https://github.com/krutika731/Fake-news-prediction/blob/master/fake_news_identification_EDA.ipynb)
 
-Modeling:-
+### Modeling:-
 
-With Doc2vec 
+- With Doc2vec 
 For modeling, I used Doc2vec to generated the vector from trained article text. Doc2vec create the word embedding that can help to retain the meaning of the text in your document.
 
 After getting the vecotrs from Doc2Vec I tried diffrent classification models like Logistic Regression and Random forest.
@@ -28,7 +28,7 @@ The link of that jupyter notebook given below.
 
 [Doc2vec model](https://github.com/krutika731/Fake-news-prediction/blob/master/Doc2vec_model.ipynb)
 
-#### With neural network:-
+- With neural network:-
 
 I used Keras LSTM model to improve the accuracy in classification. I used Bidirectional LSTM with Conv1D layer to improve the result.
 The link for this jupyter notebook is given below.
